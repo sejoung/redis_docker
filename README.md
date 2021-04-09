@@ -29,6 +29,12 @@ maxmemory 에서 설정한 메모리 를 초과해서 데이타를 쓰려고 할
 
 volatile-lru , volatile-random 및 volatile-ttl 정책 은 전제 조건과 일치하는 제거 할 키가없는 경우 noeviction 처럼 작동
 
+
+```
+docker logs test-redis
+docker logs redis-stat
+```
+
 # 참고
 * [6.2 redis.conf](https://github.com/redis/redis/blob/6.2/redis.conf)
 * [redis-stat docker](https://hub.docker.com/r/insready/redis-stat/)
