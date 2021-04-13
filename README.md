@@ -50,9 +50,9 @@ brew install redis-cli
 
 ## 무료 tool
 
-[patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
-[jfcherng/RedisDesktopManager-Windows](https://github.com/jfcherng/RedisDesktopManager-Windows)
-[FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
+* [patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+* [jfcherng/RedisDesktopManager-Windows](https://github.com/jfcherng/RedisDesktopManager-Windows)
+* [FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
 
 ### mac rdm 실행시 오류 처리 방법 
 ```
