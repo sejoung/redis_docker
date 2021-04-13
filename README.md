@@ -38,6 +38,16 @@ docker logs test-redis
 docker logs redis-stat
 ```
 
+## redis-cli 설치
+
+```
+brew tap ringohub/redis-cli
+
+brew update && brew doctor
+
+brew install redis-cli
+```
+
 # 참고
 * [6.2 redis.conf](https://github.com/redis/redis/blob/6.2/redis.conf)
 * [redis-stat docker](https://hub.docker.com/r/insready/redis-stat/)
