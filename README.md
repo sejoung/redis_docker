@@ -51,6 +51,8 @@ brew install redis-cli
 ## 무료 tool
 
 [patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+[jfcherng/RedisDesktopManager-Windows](https://github.com/jfcherng/RedisDesktopManager-Windows)
+[FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
 
 # 참고
 * [6.2 redis.conf](https://github.com/redis/redis/blob/6.2/redis.conf)
