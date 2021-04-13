@@ -1,13 +1,21 @@
 # redis_docker
 
+## docker 실행
+
 ```
-docker pull redis:6.2-alpine
 
-docker run --name test-redis -d --restart=always -v /Users/beni/redis:/log -p 6379:6379 redis redis-server --logfile /log/redis-server.log --save "" --appendonly no --databases 1 --maxmemory 4G --maxmemory-policy allkeys-lru
+docker run --name test-redis -d --restart=always -v /Users/beni/redis:/log -p 6379:6379 redis:6.2-alpine redis-server --logfile /log/redis-server.log --save "" --appendonly no --databases 1 --maxmemory 4G --maxmemory-policy allkeys-lru
 
-docker pull insready/redis-stat:latest
+docker run --name redis-stat --link test-redis:redis -p 8080:63790 -d insready/redis-stat:latest --server redis
 
-docker run --name redis-stat --link test-redis:redis -p 8080:63790 -d insready/redis-stat --server redis
+```
+
+## docker-compose 실행
+
+```
+docker-compose -f docker-compose-redis.yml up -d
+
+docker-compose -f docker-compose-redis.yml down
 
 ```
 
