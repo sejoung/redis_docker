@@ -48,6 +48,10 @@ brew update && brew doctor
 brew install redis-cli
 ```
 
+## 무료 tool
+
+[patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+
 # 참고
 * [6.2 redis.conf](https://github.com/redis/redis/blob/6.2/redis.conf)
 * [redis-stat docker](https://hub.docker.com/r/insready/redis-stat/)
