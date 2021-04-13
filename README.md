@@ -54,6 +54,14 @@ brew install redis-cli
 [jfcherng/RedisDesktopManager-Windows](https://github.com/jfcherng/RedisDesktopManager-Windows)
 [FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
 
+### mac rdm 실행시 오류 처리 방법 
+```
+brew install python@3.7
+install_name_tool -change /usr/local/opt/python@3.7/Frameworks/Python.framework/Versions/3.7/Python /usr/local/opt/python@3.7/Frameworks/Python.framework/Versions/3.7/Python /Applications/RDM.app/Contents/MacOS/RDM
+
+```
+
+
 # 참고
 * [6.2 redis.conf](https://github.com/redis/redis/blob/6.2/redis.conf)
 * [redis-stat docker](https://hub.docker.com/r/insready/redis-stat/)
